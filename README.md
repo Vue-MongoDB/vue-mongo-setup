@@ -15,7 +15,7 @@ npm run start
 npm run dev // auto update when you save
 ```
 
-## To submit project
+## To submit project to git
 
 ```
 git add -u;
