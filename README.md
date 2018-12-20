@@ -19,6 +19,6 @@ npm run dev // auto update when you save
 
 ```
 git add -u &
-git commit -m "updated on: `date +'%Y-%m-%d %H:%M:%S'`"
+git commit -m "update: `date +'%Y-%m-%d %H:%M:%S'`"
 git push origin master
 ```
