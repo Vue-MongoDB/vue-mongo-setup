@@ -45,7 +45,7 @@ async function loadPostsCollection() {
     // });
 
     // mongodb.com
-    const client = await mongodb.MongoClient.connect('mongodb+srv://test:test@cluster0-7lnqj.mongodb.net/test?retryWrites=true', {
+    const client = await mongodb.MongoClient.connect('mongodb+srv://abc1234:abc1234@cluster0-7lnqj.mongodb.net/test?retryWrites=true', {
         useNewUrlParser: true
     });
     return client.db('vue-mongodb').collection('posts');

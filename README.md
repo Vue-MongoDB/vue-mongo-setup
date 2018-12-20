@@ -27,7 +27,7 @@ git push origin master
 ```
 function gitsave(){
   git add .
-  git commit -m "update : `date +'%Y-%m-%d %H:%M:%S'`"
+  git commit -m "Update : `date +'%Y-%m-%d %H:%M:%S'`"
   git push
 }
 
