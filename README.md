@@ -22,14 +22,3 @@ git add -u &
 git commit -m "update: `date +'%Y-%m-%d %H:%M:%S'`"
 git push origin master
 ```
-### Create Alias on git
-
-```
-function gitsave(){
-  git add .
-  git commit -m "Update : `date +'%Y-%m-%d %H:%M:%S'`"
-  git push
-}
-
-gitsave
-```

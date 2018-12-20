@@ -8,8 +8,9 @@ const router = express.Router();
 // GET POST 
 router.get('/', async (req, res) => {
     // res.send('hello');
+    console.log('start '+new Date().getMilliseconds());
     const posts = await loadPostsCollection();
-    res.send(await posts.find({}).toArray());
+    res.send(await posts.find({}).toArray());console.log('end '+new Date().getMilliseconds());
 });
 
 // ADD POST
@@ -45,6 +46,8 @@ async function loadPostsCollection() {
     // });
 
     // mongodb.com
+    
+
     const client = await mongodb.MongoClient.connect('mongodb+srv://abc1234:abc1234@cluster0-7lnqj.mongodb.net/test?retryWrites=true', {
         useNewUrlParser: true
     });
