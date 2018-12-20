@@ -18,7 +18,7 @@ npm run dev // auto update when you save
 ## To submit project to git
 
 ```
-git add -u;
-git commit -m "generated files on `date +'%Y-%m-%d %H:%M:%S'`";
+git add -u
+git commit -m "✅ update : `date +'%Y-%m-%d %H:%M:%S'`"
 git push origin master
 ```
